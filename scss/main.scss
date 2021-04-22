@@ -3,5 +3,10 @@
 @import "components/navigation";
 @import "components/contacts";
 @import "components/head";
+
 @import "utils/variables";
-@import "utils/modern-normalize";
+
+@import "base/normalize";
+
+@import "layout/navigation";
+@import "layout/page-header";
