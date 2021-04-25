@@ -1,3 +1,19 @@
 .logo {
   text-decoration: none;
 }
+.logo--black {
+  font-family: $font-family-raleway;
+  font-style: normal;
+  font-weight: $font-weight-bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: $black-dark;
+}
+.logo--blue {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: $font-weight-bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: $blue-light;
+}

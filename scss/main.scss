@@ -1,12 +1,21 @@
-@import "components/page-header";
-@import "components/logo";
-@import "components/navigation";
-@import "components/contacts";
-@import "components/head";
+// Порядок файлів у scss
+// Utils
+// Base
+// Components
+// layout
+// Pages
+// Themes
+// Vendors
 
 @import "utils/variables";
 
 @import "base/normalize";
 
+@import "components/logo";
+@import "components/contacts";
+@import "components/head";
+@import "components/modal";
+
 @import "layout/navigation";
 @import "layout/page-header";
+@import "layout/conteiner";
