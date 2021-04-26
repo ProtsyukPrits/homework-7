@@ -1,4 +1,4 @@
-// Порядок файлів у scss
+// Порядок файлів у scss===>>>
 // Utils
 // Base
 // Components
@@ -15,7 +15,16 @@
 @import "components/contacts";
 @import "components/head";
 @import "components/modal";
+@import "components/benefits";
+@import "components/our-work";
+@import "components/our-work-photos";
+@import "components/our-work-information";
+@import "components/our-team-container";
+@import "components/our-team";
+@import "components/our-team-information";
+@import "components/our-team-social-information";
 
 @import "layout/navigation";
 @import "layout/page-header";
-@import "layout/conteiner";
+@import "layout/container";
+@import "layout/section";

@@ -306,13 +306,13 @@ body {
 }
 
 /* Флекс бокс для страниц */
-.container {
+/* .container {
   display: flex;
   justify-content: space-between;
   padding: 32px 15px;
   max-width: 1200px;
   margin: auto;
-}
+} */
 
 .section {
   padding-top: 94px;
@@ -517,9 +517,6 @@ body {
   justify-content: space-between;
   margin: 16px 32px 30px 32px;
   padding: 0px;
-}
-.container-icons .team-icons-item:not(:last-child) {
-  margin-right: 10px;
 }
 
 .team-icons-item,

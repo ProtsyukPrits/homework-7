@@ -1,0 +1,19 @@
+.our-work-photos {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.our-work-photos--margins {
+  margin: 0;
+  padding: 0;
+}
+
+.our-work-photos .our-work-photos__list:not(:last-child) {
+  margin-right: 30px;
+}
+.our-work-photos__list {
+  position: relative;
+  width: 370px;
+  height: 294px;
+}
