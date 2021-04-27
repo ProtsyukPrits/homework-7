@@ -441,7 +441,7 @@ body {
   padding-bottom: 60px;
 }
 
-.contacts {
+.address-contacts {
   display: block;
   list-style: none;
   align-items: flex-start;
@@ -449,7 +449,7 @@ body {
   margin: 0px;
 }
 
-.contacts .item-contacts:not(:last-child) {
+.address-contacts .item-contacts:not(:last-child) {
   margin-bottom: 9px;
 }
 
