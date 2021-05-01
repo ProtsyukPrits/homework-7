@@ -598,7 +598,7 @@ body {
 }
 
 /* Animations */
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -612,11 +612,11 @@ body {
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
-}
-.backdrop.is-hidden .modal {
+} */
+/* .backdrop .backdrop--is-hidden .modal {
   transform: scale(0.7) translate(-50%, -50%);
   transform-origin: center left;
-}
+} */
 .modal {
   position: absolute;
   top: 50%;
@@ -914,7 +914,7 @@ body {
   line-height: 14px;
   letter-spacing: 0.01em;
 
-  color: rgba(117, 117, 117, 0.502);
+  color: rgba(117, 117, 117, 0.5);
 }
 
 .footer-subscribe {
@@ -978,7 +978,4 @@ body {
   position: absolute;
   bottom: 13px;
   right: 28px;
-}
-.rat {
-  color: #2196f3;
 }

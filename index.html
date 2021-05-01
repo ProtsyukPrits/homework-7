@@ -383,12 +383,12 @@
                       
                     </div>
                 </section>
-                <div class="footer-subscribe">
+                <div class="subscribe">
                     <h4 class="footer-join">Подпишитесь на рассылку</h4>
-                    <div class="footer-subscribe-input">
-                        <input class="footer-input" type="email" placeholder="E-mail">
-                        <button class="footer-subscribe-button" type="submit">Подписаться</button>
-                        <svg class="footer-subscribe-icons" width="24px" height="24px">
+                    <div class="subscribe-area subscribe-area--padding">
+                        <input class="subscribe-area__input" type="email" placeholder="E-mail">
+                        <button class="subscribe-area__button" type="submit">Подписаться</button>
+                        <svg class="subscribe-area__icon" width="24px" height="24px">
                             <use href="./images/icons.svg#send"></use>
                         </svg>
                     </div>
@@ -396,71 +396,79 @@
         </div>
     </footer>
 
-    <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
-            <button class="modal-button" data-modal-close>
-                <svg class="modal-icons" width="11px" height="11px">
-                    <use href="./images/icons.svg#vector"></use>
-                </svg>
-            </button>
+    <div class="backdrop backdrop--is-hidden" data-modal>
+        <div class="modal">
+        <button class="modal__button" data-modal-close> 
+            <svg class="modal__icon" width="11px" height="11px">
+                <use href="./images/icons.svg#vector"></use>
+            </svg>
+        </button>
+           
            <form class="form" autocomplete="off">
-               <div>
-                    <h1 class="form-text">Оставьте свои данные, мы вам перезвоним</h1>
+               
+                    <h1 class="form__title">Оставьте свои данные, мы вам перезвоним</h1>
 
-                    <div class="form-box">
-                        <label for="name" class="form-label">Имя</label>
-                            <input class="form-input form-input-two" type="name" id="name" name="form" value="" placeholder=" " />
-                            <svg class="form-icon" width="18px" height="18px">
+                    <div class="form-information form-information--margin">
+                        <label for="name" class="form-information__label">Имя</label>
+                            <input 
+                            class="form-information__input form-information__input--paddings" 
+                            type="name"
+                             id="name" 
+                             name="form" 
+                             value="" 
+                             placeholder=" " />
+                            <svg class="form-information__icon" width="18px" height="18px">
                                 <use href="./images/icons.svg#person"></use>
                             </svg>
                     </div>
 
-                    <div class="form-box">
-                        <label for="tel" class="form-label">Телефон</label>
+                    <div class="form-information form-information--margin">
+                        <label for="tel" class="form-information__label">Телефон</label>
                         <input 
-                            class="form-input form-input-two" 
+                            class="form-information__input form-information__input--paddings" 
                             type="tel" 
                             id="tel"
                             name="form" 
                             value="" 
                             placeholder=" " />
-                        <svg class="form-icon" width="18px" height="18px">
+                        <svg class="form-information__icon" width="18px" height="18px">
                             <use href="./images/icons.svg#phone"></use>
                         </svg>
                     </div>
 
-                    <div class="form-box">
-                        <label for="mail" class="form-label">Почта</label>
+                    <div class="form-information form-information--margin">
+                        <label for="mail" class="form-information__label">Почта</label>
                         <input 
-                            class="form-input form-input-two" 
+                            class="form-information__input form-information__input--paddings" 
                             type="email"
                             id="mail" 
                             name="form" 
                             value="" 
                             placeholder=" " />
-                        <svg class="form-icon" width="18px" height="18px">
+                        <svg class="form-information__icon" width="18px" height="18px">
                             <use href="./images/icons.svg#email"></use>
                         </svg>
                     </div>
 
-                    <div class="form-box form-one">
-                        <label  class="form-label">Комментарий</label>
-                        <textarea class="form-input text-area" name="form" rows="" placeholder="Введите текст" ></textarea>
+                    <div class="form-information ">
+                        <label  class="form-information__label">Комментарий</label>
+                        <textarea class="form-information__input form-information__input--resize form-information__input--height" name="form" rows="" placeholder="Введите текст" ></textarea>
                     </div>
-                        <div class="check-box">
-                            <label for="checkbox" class="check-label">
-                                <input class="form-check" type="checkbox" id="checkbox" name="form" value="" />
-                                <svg class="transparent-check-box" width="16px" height="15px">
+                        <div class="check-box check-box--size">
+                            <label for="checkbox" class="check-box__label">
+                                <input class="check-box__input" type="checkbox" id="checkbox" name="form" value="" />
+                                <svg class="check-box__icon" width="16px" height="15px">
                                     <use href="./images/icons.svg#check"></use>
                                 </svg>
-                                Соглашаюсь с рассылкой и принимаю <a class="rat" href="">Условия договора</a>
+                                Соглашаюсь с рассылкой и принимаю <a class="check-box__text" href="">Условия договора</a>
                             </label>
                                
                         </div>
-                    <div class="form-button">
-                        <button class="form-submit" type="submit">Отправить</button>
-                    </div>
-                </div>
+                   
+                        <div class="form__button--display">
+                            <button class="form__button" type="submit">Отправить</button>
+                        </div>
+                  
                 
                   
             </form>
