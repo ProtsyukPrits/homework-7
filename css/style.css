@@ -316,6 +316,7 @@ body {
 
 .section {
   padding-top: 94px;
+
   padding-bottom: 94px;
 }
 
@@ -461,10 +462,9 @@ body {
   margin-right: 8px;
 }
 
-.item-portfolio-one {
-  margin-left: 15px;
+/* .item-portfolio-one {
   margin-right: 15px;
-}
+} */
 .item-portfolio-one:hover {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.059),
