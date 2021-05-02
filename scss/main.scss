@@ -8,6 +8,7 @@
 // Vendors
 
 @import "utils/variables";
+@import "utils/mixins";
 
 @import "base/normalize";
 
@@ -25,7 +26,6 @@
 @import "components/regular-customers-container";
 @import "components/regular-customers";
 @import "components/footer-container";
-@import "components/footer-information";
 @import "components/address-contacts";
 @import "components/join";
 @import "components/join-information";

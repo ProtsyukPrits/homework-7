@@ -2,10 +2,7 @@
   margin-top: 94px;
 }
 .benefits {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  @include direction();
 }
 .benefits .benefits__list:not(:last-child) {
   margin-right: 30px;

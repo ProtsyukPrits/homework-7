@@ -5,7 +5,7 @@
 .our-team-container__title {
   text-align: center;
   margin: 0px;
-  margin-bottom: 50px;
+  @include bottom-line();
 
   font-family: $font-family-roboto;
   font-style: normal;

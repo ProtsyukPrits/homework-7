@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com"/>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap"rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.2.0/modern-normalize.min.css"/>
-    <link rel="stylesheet" href="./css/style.css" />
+    <!-- <link rel="stylesheet" href="./css/style.css" /> -->
     <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 
@@ -37,7 +37,7 @@
         <ul class="contacts contacts--size">
             <li class="contacts__list">
                 <a href="mailto:info@devstudio.com" class="contacts__list--font contacts__list--padding">
-                    <svg class="contacts-icons" width="16px" height="12px">
+                    <svg class="contacts__icon" width="16px" height="12px">
                         <use href="./images/icons.svg#mail"></use>
                     </svg>
                     info@devstudio.com</a>
@@ -45,7 +45,7 @@
     
             <li class="contacts__list">
                 <a href="tel:+38 096 111 11 11" class="contacts__list--font contacts__list--padding">
-                    <svg class="contacts-icons" width="10px" height="16px">
+                    <svg class="contacts__icon" width="10px" height="16px">
                         <use href="./images/icons.svg#smartphone"></use>
                     </svg>
                     +38 096 111 11 11</a>
@@ -63,7 +63,7 @@
         <!--Кнопки-->
 
             <nav class="portfolio-navigation--size container">
-                <ul class="portfolio-anchor portfolio-anchor--margin">
+                <ul class="portfolio-anchor portfolio-anchor--size">
                 <li class="portfolio-anchor__list"><button type="button" class="portfolio-anchor__button">Все</button></li>
                 <li class="portfolio-anchor__list"><button type="button" class="portfolio-anchor__button">Веб-сайты</button></li>
                 <li class="portfolio-anchor__list"><button type="button" class="portfolio-anchor__button">Приложения</button></li>
@@ -204,16 +204,15 @@
 
     <!--Футер-->
     
-<footer class="footer-container ">
+<footer class="footer-container footer-container--size">
 
-    <div class="footer-information footer-information--paddings container">
+    <div class="container">
         <div>
             <a class="logo" href="/">
                 <span class="logo__item--blue">Web</span> <span class="logo__item--white">Studio</span></a>
 
             <ul class="address-contacts address-contacts--margins">
-                <li class="address-contacts__list address-contacts__list--font-address"> г. Киев, пр-т Леси Украинки, 26
-                </li>
+                <li class="address-contacts__list address-contacts__list--font-address"> г. Киев, пр-т Леси Украинки, 26 </li>
                 <li class="address-contacts__list"><a href="mailto:info@example.com"
                         class="address-contacts__list--font-contact">info@example.com</a></li>
                 <li class="address-contacts__list"> <a href="tel:+38 099 111 11 11"

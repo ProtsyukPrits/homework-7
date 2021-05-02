@@ -1,12 +1,8 @@
 .our-team {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  @include direction();
 }
 .our-team--margins {
-  margin: 0;
-  padding: 0;
+  @include margined();
 }
 .our-team .our-team-information--shadow:not(:last-child) {
   margin-right: 30px;

@@ -1,15 +1,11 @@
 .portfolio-anchor {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  @include direction();
 }
 
-.portfolio-anchor--margin {
-  margin: 0;
+.portfolio-anchor--size {
+  @include margined();
   margin-right: auto;
   margin-left: auto;
-  padding: 0;
 }
 .portfolio-anchor .portfolio-anchor__list:not(:last-child) {
   margin-right: 8px;

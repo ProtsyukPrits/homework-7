@@ -1,12 +1,9 @@
 .our-work-photos {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  @include direction();
 }
-.our-work-photos--margins {
-  margin: 0;
-  padding: 0;
+
+.our-work-photos--size {
+  @include margined();
 }
 
 .our-work-photos .our-work-photos__list:not(:last-child) {
